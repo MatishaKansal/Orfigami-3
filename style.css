@@ -1,0 +1,38 @@
+h1{
+    color: rgb(254, 219, 225);
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    color:yellow;
+}
+h2{
+    color: rgb(136, 221, 252);
+}
+.footer{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.back{
+    background-image: url(bg.PNG);
+    border: solid;
+    border-color: palevioletred;
+    border-width: 10px;
+}
+.item{
+    border: solid;
+    border-width: 10px;
+    border-color: plum;
+    padding: 20px;
+    margin: 20px;
+}
+
+.item h2{
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
